@@ -1,7 +1,7 @@
 import ollama
 
 def getResponse(promptIn):
-    response = ollama.chat(model='samantha-mistral', messages=[
+    response = ollama.chat(model='llama3', messages=[
         {
             'role': 'user',
             'content': promptIn,
